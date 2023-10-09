@@ -1,0 +1,50 @@
+.centered-image {
+    width: 25vw; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 5vh auto 0; /* Shift the image down by 60% of the viewport height (vh) */
+  }
+  .centered-button {
+    width: 25vw;
+    height: auto; /* Maintain aspect ratio */
+    background-color: pink;
+    color: white;
+    margin: 5vh auto 0;
+    font-size: 4vw;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid white;
+    white-space: nowrap;
+  }
+  .title-text {
+    position: relative;
+    top: 3vh;
+    /* bottom: 10px; */
+    color: pink;
+    -webkit-text-stroke: .1vw #fff;
+    font-size: 4vw;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 5vh auto 0;
+    /* text-shadow:
+        -2px -2px 0 pink,
+        2px -2px 0 pink,
+        -2px 2px 0 pink,
+        2px 2px 0 pink,
+        -4px -4px 0 white,
+        4px -4px 0 white,
+        -4px 4px 0 white,
+        4px 4px 0 white; */
+}
+  .desc-text {
+    position: relative;
+    top: 5vh;
+    /* bottom: 10px; */
+    color: pink;
+    -webkit-text-stroke: .1vw #fff;
+    font-size: 4vw;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    margin-top: 5vh auto 0;
+  }
