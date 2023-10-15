@@ -1,31 +1,43 @@
 .centered-image {
-    width: 25vw; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-    margin: 5vh auto 0; /* Shift the image down by 60% of the viewport height (vh) */
-  }
+  width: min(500px, 30%); /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
   .centered-button {
-    width: 25vw;
+    position: fixed;
+    bottom: 20%; /* Move the element 50% down from the top */
+    left: 50%; /* Move the element 50% from the left */
+    transform: translate(-50%, 0); /* Center the element by moving it back 50% of its own width and height */
+    width: 40vw;
+    min-height: auto;
     height: auto; /* Maintain aspect ratio */
     background-color: pink;
     color: white;
     margin: 5vh auto 0;
-    font-size: 4vw;
+    font-size: 5vw;
     border-radius: 10px;
     text-align: center;
     border: 2px solid white;
     white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
   }
   .title-text {
     position: relative;
-    top: 3vh;
     /* bottom: 10px; */
     color: pink;
     -webkit-text-stroke: .1vw #fff;
-    font-size: 4vw;
+    font-size: 5vw;
+    text-indent: 10%;
     text-align: center;
-    white-space: nowrap;
     margin-top: 5vh auto 0;
+    user-select: none;
     /* text-shadow:
         -2px -2px 0 pink,
         2px -2px 0 pink,
@@ -36,15 +48,45 @@
         -4px 4px 0 white,
         4px 4px 0 white; */
 }
-  .desc-text {
-    position: relative;
-    top: 5vh;
-    /* bottom: 10px; */
+  .desc-textbox strong {
     color: pink;
     -webkit-text-stroke: .1vw #fff;
-    font-size: 4vw;
+    font-size: 5.5vw;
     text-align: center;
-    white-space: nowrap;
+    /* white-space: pre; */
     display: block;
     margin-top: 5vh auto 0;
+    user-select: none;
   }
+
+  .desc-textbox {
+    position: fixed;
+    bottom: 0%; /* Move the element 50% down from the top */
+    left: 50%; /* Move the element 50% from the left */
+    transform: translate(-50%, 0%); /* Center the element both horizontally and vertically */
+    width: 100vw; /* Set a specific width for the section */
+    height: 20%;
+    padding: 20px; /* Add padding for spacing */
+    background-color: transparent; /* Set a background color for the section */
+    text-align: center; /* Adjust text alignment as needed (left, center, right) */
+  }
+
+@media (orientation: portrait) {
+  .centered-image {
+    top: 50%;
+    width: 50%; /* Adjust the width for portrait mode */
+  }
+  .desc-textbox strong {
+    font-size: 4vh;
+  }
+  .title-text {
+    font-size: 10vw;
+  }
+  .centered-button {
+    width: 20vh;
+    height: 10vh;
+    bottom: 20%;
+    font-size: max(3.5vw, 3.5vh);
+  }
+
+}

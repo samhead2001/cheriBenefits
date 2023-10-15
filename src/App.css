@@ -1,10 +1,42 @@
+/* Common styles for all screen sizes */
 body, html {
-    background: linear-gradient(#e48080, pink);
-    overflow: hidden;
-    height: 100%;
-    /* background-image: url("/images/CottagePinkTheme.png");
-    background-size: 50%;
-    background-repeat: repeat;
-    background-attachment: fixed; */
-    /* Add any other styles you want for the body */
-  }
+  background: linear-gradient(#ff8f8f, rgb(250, 84, 112));
+  overflow: hidden;
+  height: 100%;
+  /* Add any other common styles you want for the body */
+}
+
+@font-face {
+  font-family: 'Cheri';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/CHERI___.ttf');
+}
+
+@font-face {
+  font-family: 'Cherl';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/CHERL___.ttf');
+}
+
+@font-face {
+  font-family: 'Comicy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/COMICY.otf');
+}
+
+@font-face {
+  font-family: 'Berlin Sans FB Bold';
+  font-style: bold;
+  font-weight: 400;
+  src: url('./fonts/BRLNSB.ttf');
+}
+
+@font-face {
+  font-family: 'Berlin Sans FB Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/BRLNSR.ttf');
+}
