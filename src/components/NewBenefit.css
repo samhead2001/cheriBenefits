@@ -70,6 +70,15 @@
     background-color: transparent; /* Set a background color for the section */
     text-align: center; /* Adjust text alignment as needed (left, center, right) */
   }
+  .smol-cheri {
+    position: fixed;
+    top: 30%;
+    left: 59%;
+    rotate: 15deg;
+    width: min(200px, 12.5%);
+    height: auto;
+    opacity: 0.1;
+  }
 
 @media (orientation: portrait) {
   .centered-image {
@@ -87,6 +96,12 @@
     height: 10vh;
     bottom: 20%;
     font-size: max(3.5vw, 3.5vh);
+  }
+
+  .smol-cheri {
+    left: 65%;
+    top: 50%;
+    width: 20%; /* Adjust the width for portrait mode */
   }
 
 }
