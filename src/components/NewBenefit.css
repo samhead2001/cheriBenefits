@@ -30,6 +30,7 @@
   }
   .title-text {
     position: relative;
+    cursor: pointer;
     /* bottom: 10px; */
     color: pink;
     -webkit-text-stroke: .1vw #fff;
@@ -69,6 +70,7 @@
     padding: 20px; /* Add padding for spacing */
     background-color: transparent; /* Set a background color for the section */
     text-align: center; /* Adjust text alignment as needed (left, center, right) */
+    user-select: none;
   }
   .smol-cheri {
     position: fixed;

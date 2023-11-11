@@ -19,9 +19,11 @@ function InfoButton() {
                     <div className="title-entry-text">This website is dedicated to Cheri Lupina reaching 100K!</div>
                     <div className="entry-text">In this website, there is a button you press that gives you a different membership benefit along with an image and description.</div>
                     <br></br>
-                    <div className="title-entry-text">Thanks to these Gemlins:</div>
+                    <div className="title-entry-text">Thanks to these People:</div>
                     <div className="entry-text"><a href="https://twitter.com/MrMeow230">MrMeow</a> for helping me find these sound effects!</div>
                     <div className="entry-text"><a href="https://github.com/Paturages">Paturages</a> for helping me make my project better!</div>
+                    <div className="entry-text">Jacc "Bagel Boi" Daniels for letting me use his Dough Cheri!</div>
+                    <div className="entry-text">GonzoBoyz2 for letting me use his Pumpkin Cheri!</div>
                     <div className="entry-text"><a href="https://youtube.com/@CheriLupina?si=-ifBk2DBUGhrE9NF">Cheri Lupina</a> for being best Treasure Hunting Fox Girl!</div>
                     <br></br>
                     <div className="title-entry-text">Links:</div>
